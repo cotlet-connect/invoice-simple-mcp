@@ -110,6 +110,7 @@ As of November 2026 there is no publicly documented official Invoice Simple app 
 - [Invoice Simple on Cotlet.dev](https://cotlet.dev/integrations/invoice-simple-api-mcp-server?utm_source=github&utm_medium=readme&utm_campaign=invoice-simple&utm_content=find)
 - [PyPI package invoice-simple-mcp](https://pypi.org/project/invoice-simple-mcp/)
 - [Odel](https://odel.app/modules/cotlet/invoice-simple)
+- [mcpbeat](https://mcpbeat.com/mcp-servers/cotlet/invoice-simple/)
 - [Step-by-step guide (PDF) on Internet Archive](https://archive.org/details/cotlet-connect-invoice-simple-to-ai-agents-guide)
 
 ## Also works with
