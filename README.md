@@ -84,10 +84,6 @@ Copy `.cursor/mcp.json` from this repo into your project:
 
 This repo is a real MCP server. It speaks MCP over stdio, lists its Invoice Simple tools without any key, and forwards every tool call to the hosted Cotlet.dev server. The hosted URL above stays the recommended way. Use this when your client only starts local servers.
 
-```json
-{"mcpServers":{"invoice-simple":{"command":"uvx","args":["invoice-simple-mcp"],"env":{"COTLET_API_KEY":"your-key"}}}}
-```
-
 Or with Docker:
 
 ```bash
@@ -99,12 +95,7 @@ Tools: `invoice_simple_guide`, `invoice_simple_status`, `invoice_simple_open`, `
 
 ## Command line
 
-Python 3.10+, nothing else to install. From PyPI:
-
-```bash
-pip install invoice-simple-mcp        # or run it once: uvx invoice-simple-mcp connect
-invoice-simple-mcp connect
-```
+Python 3.10+, nothing else to install.
 
 Or straight from this repo:
 
@@ -152,7 +143,6 @@ No. Invoice Simple's AI Receptionist answers your phone. Cotlet is an unofficial
 - [Invoice Simple MCP server on Cotlet.dev](https://cotlet.dev/integrations/invoice-simple-api-mcp-server?utm_source=github&utm_medium=readme&utm_campaign=invoice-simple&utm_content=find)
 - [Invoice Simple API with Cotlet](https://cotlet.dev/integrations/api/invoice-simple?utm_source=github&utm_medium=readme&utm_campaign=invoice-simple&utm_content=find)
 - [Does Invoice Simple have an API or MCP server?](https://cotlet.dev/api-mcp-status/invoice-simple?utm_source=github&utm_medium=readme&utm_campaign=invoice-simple&utm_content=find)
-- [PyPI package invoice-simple-mcp](https://pypi.org/project/invoice-simple-mcp/)
 
 ## More invoicing and trades apps on Cotlet
 
